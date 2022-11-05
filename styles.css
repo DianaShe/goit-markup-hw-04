@@ -290,6 +290,8 @@ h1, h2, h3, p, ul {
 
 .socials {
   display: flex;
+  padding-left: 0;
+  justify-content: center;
 }
 
 .socials-item {
@@ -344,7 +346,7 @@ h1, h2, h3, p, ul {
   border-radius: 4px;
 }
 
-.client-box .item :last-child {
+.client-box .item:last-child {
   margin-right: 0;
 }
 
@@ -419,10 +421,6 @@ h1, h2, h3, p, ul {
   color:var(--white-color)
 }
 
-.join {
-  
-}
-
 .join-text {
   font-weight: 700;
   font-size: 14px;
@@ -450,7 +448,7 @@ h1, h2, h3, p, ul {
   border-radius: 50%;
 }
 
-.join .item:last-child {
+.join .link:last-child {
   margin-right: 0;
 }
 
