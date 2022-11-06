@@ -14,7 +14,7 @@
   letter-spacing: 0.03em;
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  background: var(--bg-color);
+  background: var(--white-color);
 }
 
 h1, h2, h3, p, ul {
@@ -204,6 +204,7 @@ h1, h2, h3, p, ul {
   justify-content: center;
   padding: 25px 100px;
   margin-bottom: 30px;
+  background-color: var(--thr-bg-color);
 }
 
 .features .icon {
@@ -365,6 +366,10 @@ h1, h2, h3, p, ul {
 
 .clients .link:hover .icon, .clients .link:focus .icon {
   fill: var(--accent-color)
+}
+
+.client-box .item:hover, .client-box .item:focus {
+  border-color: var(--accent-color);
 }
 
 .footer {
